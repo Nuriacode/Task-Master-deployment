@@ -1,0 +1,49 @@
+.color_1 {
+   
+    background: rgba(233, 211, 240, 1);
+}
+
+.color_2 {
+  
+    background: rgb(113, 174, 134);
+}
+
+.color_3 {
+    
+    background: rgb(244, 157, 157);
+}
+
+.article{
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 8px;
+    width: 30vw;
+
+    &__div{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        
+
+        .fa-circle-xmark {
+                color:rgb(20, 20, 20);
+                text-align: right;
+                padding-left: 2px;
+                padding-right: 8px;
+            }
+        &--title{
+            color: rgb(20, 20, 20);
+            font-weight: bolder;
+            text-transform: capitalize;
+            padding-bottom: 8px;
+            font-size: 15px;
+        }
+        &--text{
+            color: rgb(20, 20, 20);
+            font-size: 13px;
+            padding-bottom: 5px;
+        }
+    }
+
+}
+

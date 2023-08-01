@@ -1,0 +1,64 @@
+.app {
+  background-color: #026f7b;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  &__frameCalen {
+    height: 80vh;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    height: 60vh;
+    box-shadow: 0px 3px 10px #191919e3;
+    @media all and (min-width: 768px) {
+        width: 50vw;
+        height: 80vh;
+        }
+  }
+
+
+}
+
+.form {
+  background-color: #026f7b;
+    padding: 20px;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+    @media all and (min-width: 768px) {
+        width: 50vw;
+        justify-content: flex-start;
+        align-items: baseline;
+        padding-left: 40px;
+      }
+      &__titleTask {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        align-self: flex-start;
+      }
+}
+
+.rbc-toolbar {
+  font-family: "Nunito", sans-serif;
+}
+.rbc-toolbar-label {
+  font-size: 1rem;
+}
+.rbc-btn-group {
+  font-family: "Nunito", sans-serif;
+}
+
+.rbc-event {
+  background-color: rgb(241, 167, 84);
+}
+
+.rbc-today {
+  background-color: rgb(247, 187, 118);
+}

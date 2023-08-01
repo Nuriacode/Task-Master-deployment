@@ -1,0 +1,88 @@
+.modal {
+  font-family: 'Nunito', sans-serif;
+  background-color: rgb(158, 165, 167);
+  width: 30%;
+   
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+
+      &__form {
+        width: 70vw;
+        padding-top: 1.5rem;
+        padding-bottom: 1.7rem;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 3px 10px #191919e3;
+        gap:1rem;
+        
+        @media all and (min-width: 768px) {
+            width: 30vw;
+          }
+
+        &__label {
+          font-size: 0.8rem;
+        }
+
+        &__icon{
+          color: rgba(255, 192, 118, 1);
+        }
+
+        &__button {
+          margin-top: 5px;
+          border:none;
+            background-color: rgba(255, 192, 118, 1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 5px #191919e3;
+            width: 8rem;
+            height: 3em;
+            border-radius: 13px;
+            font-size: 0.8rem;
+        }
+
+                &__div {
+                  font-size: 0.8rem;
+                  align-items: center;
+                  &--input{
+                    cursor: pointer;
+
+                  }
+                }
+      }
+      
+    }
+
+      
+
+}
+
+.hidden{
+    display: none;
+}
+.color_1 {
+  background: rgba(233, 211, 240, 1);
+}
+
+.color_2 {
+  background: rgb(117, 186, 141);
+}
+
+.color_3 {
+  background: rgb(244, 157, 157);
+}
+
+.fa-notebook{
+  color: rgba(255, 192, 118, 1);
+}
